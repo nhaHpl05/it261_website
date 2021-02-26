@@ -1,0 +1,202 @@
+/* styles for website pages */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background:#b6e6a8;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background:#c9a5be;
+    padding: 30px 10%;
+    height: 120px;
+    margin-bottom: 30px;
+
+}
+
+#logo {
+
+    width:150px;
+    height: auto;
+}
+
+#wrapper {
+    width:950px;
+    margin:0 auto;
+    clear:both;
+
+}
+
+nav {
+    height:50px;
+    line-height: 50px;
+
+}
+
+nav ul {
+    float:left;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+ nav li a {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+nav li a:hover {
+    color: lightgoldenrodyellow;
+}
+.active {
+    color: gold;
+    font-weight: bold;
+}
+
+main {
+    width:700px;
+    float:right;
+}
+
+main img {
+    height:380px;
+    width:auto;
+
+}
+aside {
+    width:340px;
+    
+}
+
+aside img {
+    width:220px;
+    height:auto;
+    border-top: 30px solid #b6e6a8;
+    
+
+}
+
+ footer {
+    border-top: 1px dotted #666;
+    height: 50px;
+    line-height: 50px;
+    clear: both;
+}
+
+ footer ul {
+    float:right;
+
+}
+
+footer li {
+    float:left;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.inner-footer {
+    width:940px;
+    margin:0 auto 30px auto;
+   
+}
+
+/* index.php page */
+ div img {
+    width: 50%px;
+    height: auto;
+}
+
+/* Form CSS */ 
+form.form-style{
+   max-width: 650px;
+}
+
+fieldset {
+    padding: 10px;
+    max-width: 650px;
+}
+
+label {
+    display: block;
+    margin-top:10px;
+}
+
+
+fieldset ul li {
+    list-style-type: none;
+}
+
+fieldset span {
+    font-style: italic;
+    color: darkred;
+}
+/* END FORM CSS */
+
+/* ####### STYLES FOR DAILY.PHP CONTENT ###### */
+
+/* TREE COLOR */
+    body.lightsalmon {
+        background: lightsalmon;
+    }
+
+    body.coral {
+        background: coral;
+    }
+
+    body.powderblue {
+        background: powderblue;
+    }
+
+    body.papayawhip {
+        background: papayawhip;
+    }
+
+    body.sandybrown {
+        background: sandybrown;
+    }
+
+    body.chocolate {
+        background: chocolate;
+    }
+
+    body.mistyrose {
+        background: mistyrose;
+    }
+    
+    .image-tree {
+        width: 500px;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        
+    }
+/* END TREE COLOR */
+
+/* DAILY PAGE STYLES */
+ ul.style-daily {
+    list-style-type:none; 
+}
+
+p.content-text {
+    width: 30em;
+    font-family: arial;
+    font-size: large;
+}
+
+h1.align__text {
+    padding-left: 3em;
+}
+
+/* END daily.php styles */
